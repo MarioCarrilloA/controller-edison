@@ -19,7 +19,7 @@ int main()
 	unsigned int way_flag;
 	mraa_pwm_context pwm;
 
-	/* Initialise pwm_context, uses board mapping */
+	/* Initialize pwm_context, uses board mapping */
 	pwm = mraa_pwm_init(PWM_PORT);
 
 	if (pwm == NULL)
